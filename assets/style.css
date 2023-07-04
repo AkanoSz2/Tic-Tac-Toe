@@ -1,0 +1,56 @@
+body {
+  background-color: wheat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+h1 {
+  font-style: italic;
+  font-size: 35px;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+.table {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  width: 375px;
+  margin: auto;
+}
+
+.box {
+  width: 125px;
+  height: 125px;
+  border: 2px solid;
+  box-shadow: 0 0 0 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  cursor: pointer;
+
+}
+
+
+
+
+.restart {
+  height: fit-content;
+  width: fit-content;
+  font-size: 40px;
+  border-radius: 20px;
+  padding: 5px 15px 5px 15px;
+  background-color: linen;
+}
+
+.png {
+  width: 125px;
+  height: 125px;
+  background-color: white;
+}
